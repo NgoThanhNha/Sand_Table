@@ -1,0 +1,23 @@
+#include <main.h>
+#include <stdio.h>
+void main()
+{
+
+   while(TRUE)
+   {
+      char DataSend = "Hello_1";
+      char DataSend2 = "Hello_2";
+      char DataSend3 = "Hello_3";
+      char DataSend4 = "Hello_4";
+      putc(DataSend);
+      delay_ms(1000);
+      putc(DataSend2);
+      delay_ms(1000);
+      putc(DataSend3);
+      delay_ms(1000);
+      putc(DataSend4);
+      delay_ms(1000);
+   }
+
+
+}

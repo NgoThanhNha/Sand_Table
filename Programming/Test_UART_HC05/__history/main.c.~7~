@@ -1,0 +1,14 @@
+#include <main.h>
+#include <stdio.h>
+void main()
+{
+
+   while(TRUE)
+   {
+      char DataSend = "Hello_1";
+      putc(DataSend);
+      delay_ms(1000);
+   }
+
+
+}

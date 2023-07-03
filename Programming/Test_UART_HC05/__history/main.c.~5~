@@ -1,0 +1,13 @@
+#include <main.h>
+#include <stdio.h>
+void main()
+{
+
+   while(TRUE)
+   {
+      putc('Hello_1');
+      delay_ms(1000);
+   }
+
+
+}

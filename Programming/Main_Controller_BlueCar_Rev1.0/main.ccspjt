@@ -1,0 +1,90 @@
+[PROJECT]
+Target=main.hex
+Processor_Text=PIC16F887
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=main.c
+[Directories]
+Include=
+[D:\Projects\__Bluetooth_Car_PIC16F887_Rev1.0\Programming\Main_Controller_BlueCar_Rev1.0\main]
+Type=4
+[mru-list]
+1=main.c
+
+[ProjectLog]
+Days=5
+D1=16-06-2023
+D1_L=10
+D1_L1=[46330]Project Opened.
+D1_L2=[47839]Started Editing.
+D1_L3=[48211]Stopped Editing.
+D1_L4=[52242]Started Editing.
+D1_L5=[53165]Stopped Editing.
+TotalEdit=70
+TotalDebug=0
+D1_E=18
+D1_D=0
+D1_L6=[60599]Project Closed.
+D1_L7=[61077]Project Opened.
+D1_L8=[61092]Started Editing.
+D1_L9=[61709]Stopped Editing.
+D1_L10=[67962]Project Closed.
+D2=20-06-2023
+D2_L=26
+D2_L1=[51609]Project Opened.
+D2_L2=[51814]Project Closed.
+D2_L3=[51814]Project Opened.
+D2_L4=[51818]Started Editing.
+D2_L5=[53197]Stopped Editing.
+D2_L6=[53754]Started Editing.
+D2_L7=[53987]Stopped Editing.
+D2_E=39
+D2_D=0
+D2_L8=[53987]Project Closed.
+D2_L9=[54837]Project Opened.
+D2_L10=[54894]Project Closed.
+D2_L11=[55680]Project Opened.
+D2_L12=[55687]Started Editing.
+D2_L13=[56085]Stopped Editing.
+D2_L14=[56085]Project Closed.
+D2_L15=[56889]Project Opened.
+D2_L16=[56893]Started Editing.
+D2_L17=[57201]Stopped Editing.
+D2_L18=[57426]Started Editing.
+D2_L19=[57621]Stopped Editing.
+D2_L20=[57621]Project Closed.
+D2_L21=[57650]Project Opened.
+D2_L22=[57663]Project Closed.
+D2_L23=[58229]Project Opened.
+D2_L24=[58236]Started Editing.
+D2_L25=[58562]Stopped Editing.
+D2_L26=[58562]Project Closed.
+D3=21-06-2023
+D3_L=2
+D3_L1=[81045]Project Opened.
+D3_L2=[81852]Project Closed.
+D4=22-06-2023
+D4_L=2
+D4_L1=[47152]Project Opened.
+D4_L2=[48108]Project Closed.
+D5=27-06-2023
+D5_L=6
+D5_L1=[75076]Project Opened.
+D5_L2=[75096]Started Editing.
+D5_L3=[75862]Stopped Editing.
+D5_E=13
+D5_D=0
+D5_L4=[75862]Project Closed.
+D5_L5=[75866]Project Opened.
+D5_L6=[75887]Project Closed.
+
+[Opened Files]
+1=main.c
+2=
+[main.c]
+Type=4
+[Units]
+Count=1
+1=main (main)

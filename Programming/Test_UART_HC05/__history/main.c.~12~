@@ -1,0 +1,16 @@
+#include <main.h>
+#include <stdio.h>
+
+char DataSend = "Hello";
+void main()
+{
+
+   while(TRUE)
+   {
+
+      putc(DataSend);
+
+   }
+
+
+}

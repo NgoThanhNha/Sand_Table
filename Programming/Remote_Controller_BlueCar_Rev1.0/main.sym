@@ -1,0 +1,99 @@
+004-005 @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020-021 strtok.save
+022     recevieData
+023     metalCheck
+024     @TRIS_C
+025-032 MAIN.@STRPARAM
+033     LCD_BlinkON.Blink
+033     LCD_setCursor.posX
+033     MAIN.@SCRATCH1
+034     LCD_setCursor.posY
+034     MAIN.@SCRATCH2
+035-036 LCD_print.p
+035-054 LCD_setCursor.cursorPos
+035     MAIN.@SCRATCH3
+036     MAIN.@SCRATCH4
+037     LCD_print.i
+038     LCD_print.@SCRATCH1
+039     LCD_sendChar.charData
+03A     LCD_sendChar.@SCRATCH1
+055     LCD_setCursor.cursorPosition
+056     LCD_sendCmd.cmdData
+056     LCD_setCursor.@SCRATCH1
+057     @delay_ms1.P1
+057     LCD_sendCmd.@SCRATCH1
+057     LCD_setCursor.@SCRATCH2
+058     digitalWrite.pin
+059     digitalWrite.Logic
+05A     @WRITEBITA.P1
+05B     @WRITEBITA.P1
+05C-05D @WRITEBITA.P1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+107.6   C1OUT
+108.6   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @const746.call
+000016  @const748.call
+000024  @delay_ms1
+000039  @WRITEBITA
+000059  digitalWrite
+000078  LCD_sendCmd
+000107  LCD_Initilize
+00018D  LCD_BlinkON
+000199  LCD_setCursor
+0001EC  LCD_print
+00020C  LCD_sendChar
+00029E  @cinit1
+00029E  MAIN
+0002BF  @cinit2
+
+Project Directory:
+    D:\Projects\__Bluetooth_Car_PIC16F887_Rev1.0\Programming\Remote_Controller_BlueCar_Rev1.0\
+
+Project Files:
+    main.c                                                  [20-Jun-23 16:21  CRC=BA8F4EAF]
+    main.h                                                  [15-Jun-23 17:48  CRC=64D0046D]
+    C:\Program Files (x86)\PICC\Devices\16F887.h            [18-Apr-14 16:56  CRC=42D047B0]
+    C:\Program Files (x86)\PICC\Drivers\string.h            [10-Apr-14 09:04  CRC=662B2714]
+    C:\Program Files (x86)\PICC\Drivers\stddef.h            [16-Jul-10 09:27  CRC=897CEC6C]
+    C:\Program Files (x86)\PICC\Drivers\ctype.h             [03-Jan-08 13:55  CRC=2D1F019F]
+
+Source signature=AC15B18A
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC16F887
+    Pointer Size:   16
+    ADC Range:      0-65535
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA
